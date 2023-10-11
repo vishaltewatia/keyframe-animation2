@@ -1,0 +1,61 @@
+body {
+  justify-content: center;
+  background-color: black;
+  gap: 20em;
+}
+.box {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(34, 185, 23);
+  margin: auto;
+
+  margin-top: 10%;
+  animation: untoldcoding 0.9s ease-in-out both infinite;
+}
+
+@keyframes untoldcoding {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.box1 {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(34, 185, 23);
+  margin: auto;
+
+  margin-top: 10%;
+  animation: untoldcoding2 1.5s both infinite;
+}
+@keyframes untoldcoding2 {
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.box2 {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(34, 185, 23);
+  margin: auto;
+
+  margin-top: 10%;
+  animation: untoldcoding3 2.5s both infinite;
+}
+@keyframes untoldcoding3 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
